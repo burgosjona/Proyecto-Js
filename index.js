@@ -21,11 +21,12 @@ while (seleccion != "si" && seleccion != "no") {
   alert("Por favor ingresa si o no");
   seleccion = prompt("Si desea comprar algun producto ingrese si o no");
 }
-
+//si dice que si le mostramos el menu
 if (seleccion == "si") {
   alert("Genial! A contunuacion nuestros productos.");
-} else if (seleccion == "no") continuarcompra = false;
-//alert("Gracias por su visita, vuelta prontos");
+}
+//si el usuario no quiere comprar nada le mostramos el monto y lo despedimos
+else if (seleccion == "no") continuarcompra = false;
 
 //mostramos el listado al usuario
 while (continuarcompra) {
